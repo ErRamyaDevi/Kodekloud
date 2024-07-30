@@ -42,7 +42,7 @@
 ##### sgx:x:996:
 ##### mohammed:x:1002:
 ##### nautilus_noc:x:1003:
-### [root@stapp03 banner]# sudo usermod -a -G nautilus_noc mohammed [To add an user to a group]
+### [root@stapp03 banner]# sudo usermod -a -G <groupname>nautilus_noc <username>mohammed [To add an user to a group]
 ### [root@stapp03 banner]# sudo tail /etc/group
 ##### systemd-journal:x:190:
 ##### systemd-coredump:x:997:
